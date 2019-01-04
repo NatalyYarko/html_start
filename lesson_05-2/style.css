@@ -169,3 +169,10 @@ input {
 }
 
 
+div.checkbox-holder {
+   width: 50%;
+}
+
+.checkbox-label {
+    display: inline;
+}

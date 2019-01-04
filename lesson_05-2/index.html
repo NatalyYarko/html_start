@@ -26,7 +26,7 @@
       <label for="last_name"> Nom de famille <input type="text" name="surename" id="last_name" class="input-form"></label>
       <label for="address"> Adresse <input type="text" name="address" id="address" class="input-form"></label>
       <label><input type="text" name="address" class="input-form"></label>
-      <label for="zip"> Zip / Code Postale <input type="number" name="post" id="zip" class="input-form"></label>
+      <label for="zip"> Zip / Code Postale <input type="num" name="post" id="zip" class="input-form"></label>
       <label for="ville"> Ville
         <input type="text" name="name" id="ville" class="input-form">
       </label>
@@ -47,7 +47,13 @@
       <label> Téléphone
         <input type="tel" name="Tel" class="input-form">
       </label>
-            <label><input checked type="checkbox"  class="option-input">Faire la livraison des articles à l'adresse defacturation ci-dessus</label>
+      <div class="checkbox-holder">
+        <input checked type="checkbox"  class="option-input">
+        <p class="checkbox-label">
+          Faire la livraison des articles à l'adresse defacturation ci-dessus
+        </p>
+
+      </div>
       <br>
       <br>
       <h2 class="h2-bottom">Information de paiement</h2>
