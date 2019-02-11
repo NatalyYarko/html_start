@@ -195,7 +195,7 @@ li a {
 h1 {
     position: absolute;
     top: 50%;
-    right: 40%;
+    right: 42%;
     font-family: 'OpenSans', sans-serif;
     font-weight: 400;
     font-size: 50px;
@@ -216,7 +216,6 @@ h2.heading-2 {
 }
 
 .section-2 {
-    /*margin-top: 200px;*/
     max-width: 1050px;
     margin: auto;
     position: relative;
@@ -301,6 +300,7 @@ div.owl-dots {
     content: "<";
     font-size: 25px;
     font-weight: bold;
+
     color: #fa090a;
 }
 
