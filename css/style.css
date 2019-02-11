@@ -7,16 +7,22 @@
     /*url('fonts/MetropolisRegular.ttf') format('truetype'),*/
     /*url('fonts/MetropolisRegular.svg#MetropolisRegular') format('svg');*/
 /*}*/
-
+body {
+    margin: 0;
+}
 header {
+    width: 100%;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.65);
     padding-bottom: 25px;
     padding-top: 25px;
+    position: absolute;
 }
 
 .logo {
     max-width: 30%;
     display: inline;
+    margin-left: 20px;
 }
 
 .logo_img {
@@ -30,7 +36,7 @@ i {
 }
 
 .container {
-    max-width: 1370px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -52,7 +58,7 @@ i {
 
 .button.log-up {
     background-color: red;
-    margin-right: 0;
+    margin-right: 10px;
 
 }
 .login {
@@ -94,17 +100,17 @@ button {
     border: none;
 }
 
-.container{
-    max-width: 1170px;
-    margin: auto;
-}
+/*.container{*/
+    /*max-width: 1170px;*/
+    /*margin: auto;*/
+/*}*/
 
 .border {
     border-bottom: solid 2px #464646;
 }
 
 .container-2{
-    max-width: 1170px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -158,7 +164,7 @@ li a {
     height: 30px;
     float: right;
     background-color: red;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-bottom: 10px;
 }
 
@@ -180,5 +186,72 @@ li a {
     display: block;
 }
 
+.main-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    /*border-bottom: solid 4px #FF0000;*/
+}
+
+h2.heading-2 {
+    text-transform: uppercase;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 33px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'OpenSans', sans-serif;
+    margin: 30px 30px;
+    font-weight: 500;
+}
+
+.section-2 {
+    /*margin-top: 200px;*/
+    max-width: 1050px;
+    margin: auto;
+    box-shadow: 5px 5px 33px 15px rgba(0,0,0,0.10);
+
+}
+.section-2 .owl-carousel .owl-item .item-1 div.image-photo{
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.section-2 .owl-carousel .owl-item .item-1 div.content{
+    width: 70%;
+    display: inline-block;
+    float: right;
+}
 
 
+.content h3 {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /*padding-left: 60px;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 10px;*/
+    padding: 20px 60px;
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+
+}
+
+.content p {
+    padding: 35px 60px;
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+}
