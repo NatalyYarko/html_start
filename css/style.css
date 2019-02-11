@@ -195,7 +195,7 @@ li a {
 h1 {
     position: absolute;
     top: 50%;
-    right: 35%;
+    right: 40%;
     font-family: 'OpenSans', sans-serif;
     font-weight: 400;
     font-size: 50px;
@@ -220,6 +220,7 @@ h2.heading-2 {
     max-width: 1050px;
     margin: auto;
     box-shadow: 5px 5px 33px 15px rgba(0,0,0,0.10);
+    position: relative;
 
 }
 .section-2 .owl-carousel .owl-item .item-1 div.image-photo{
@@ -231,7 +232,6 @@ h2.heading-2 {
 .section-2 .owl-carousel .owl-item .item-1 div.content{
     width: 70%;
     display: inline-block;
-    float: right;
 }
 
 
@@ -241,9 +241,6 @@ h2.heading-2 {
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
-    /*padding-left: 60px;*/
-    /*padding-top: 20px;*/
-    /*padding-bottom: 10px;*/
     padding: 20px 60px;
     margin: 0;
     font-family: 'OpenSans', sans-serif;
@@ -254,4 +251,57 @@ h2.heading-2 {
     padding: 35px 60px;
     margin: 0;
     font-family: 'OpenSans', sans-serif;
+}
+
+.owl-carousel button.owl-dot span{
+    width: 8px;
+    height: 8px;
+    background-color: #959595;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 11px;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+div.owl-dots {
+    text-align: center;
+    position: absolute;
+    right: 45%;
+}
+
+.owl-carousel button.owl-dot.active span {
+    width: 10px;
+    height: 10px;
+    background-color: #fa090a;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 11px;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -35px;
+    top: 45%;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    left: 1075px;
+    top: 45%;
+}
+
+.owl-nav .owl-prev:after {
+    display: block;
+    content: "<";
+    font-size: 25px;
+    color: #fa090a;
+}
+
+.owl-nav .owl-next:after {
+    display: block;
+    content: ">";
+    font-size: 25px;
+    color: #fa090a;
 }
