@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <script
             src="https://code.jquery.com/jquery-2.2.1.js"
@@ -19,9 +21,33 @@
     <script src="jquery.min.js"></script>
     <script src="script/owl.carousel.js"></script>
     <script src="script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog({
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                },
+                hide: {
+                    effect: "explode",
+                    duration: 1000
+                }
+            });
+
+            $( "#opener" ).on( "click", function() {
+                $( "#dialog" ).dialog( "open" );
+            });
+        } );
+    </script>
     <title>Document</title>
 </head>
 <body>
+<div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
 <div class="main-container">
     <header>
         <div class="container border">
@@ -35,7 +61,7 @@
                 <i class="fas fa-user-plus"></i>
                 <span class="button_label">SIGN UP NOW</span>
             </a>
-            <a href="#" class="button login">
+            <a href="#" class="button login" id="opener">
                 <i class="far fa-user"></i><span class="button_label">LOG IN</span>
             </a>
             <a href="#" class="button online-store">
