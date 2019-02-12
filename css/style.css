@@ -1,31 +1,26 @@
-/*@font-face {*/
-    /*font-family: 'MetropolisRegular';*/
-    /*src: url('fonts/MetropolisRegular.eot');*/
-    /*src: url('fonts/MetropolisRegular.eot') format('embedded-opentype'),*/
-    /*url('fonts/MetropolisRegular.woff2') format('woff2'),*/
-    /*url('fonts/MetropolisRegular.woff') format('woff'),*/
-    /*url('fonts/MetropolisRegular.ttf') format('truetype'),*/
-    /*url('fonts/MetropolisRegular.svg#MetropolisRegular') format('svg');*/
-/*}*/
-body {
+* {
     margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    /*color: blue;*/
 }
 header {
     width: 100%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.65);
-    padding-bottom: 25px;
-    padding-top: 25px;
+    /*padding: 25px 0;*/
     position: absolute;
 }
 
 .logo {
     max-width: 30%;
-    display: inline;
-    margin-left: 20px;
+    display: inline-block;
+    margin-left: 15px;
 }
 
-.logo_img {
+.logo_img img{
     width: 100%;
     margin: auto;
 }
@@ -38,11 +33,16 @@ i {
 .container {
     max-width: 100%;
     margin: auto;
-}
+    padding: 15px 15px;
 
-.container .button{
-    font-family: 'OpenSans', sans-serif;
+}
+.nav-buttons {
+    display: inline-block;
     float: right;
+    margin: 0;
+}
+.container .nav-buttons .button{
+    font-family: 'OpenSans', sans-serif;
     display: inline-block;
     min-width: 170px;
     line-height: 42px;
@@ -52,13 +52,13 @@ i {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    margin-right: 20px;
-    margin-top: 5px;
+    margin: 5px 10px;
+    /*margin-top: 5px;*/
 }
 
-.button.log-up {
+.nav-buttons .button.log-up {
     background-color: red;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
 
 }
 .login {
@@ -69,17 +69,16 @@ i {
     background-color: #252525;
 
 }
-form {
+.nav-buttons form {
     min-width: 170px;
     height: 42px;
-    display: inline-block;
-    float: right;
+    display: inline-flex;
     background-color: #ebebeb;
     border-radius: 3px;
     margin: 5px 15px 5px;
 
 }
-input {
+.nav-buttons form input {
     float: left;
     background-color: rgba(0, 0, 0, 0.0);
     padding-left: 5px;
@@ -92,7 +91,7 @@ input {
 
 header button {
     background-color: transparent;
-    float: right;
+    /*float: right;*/
     padding: 5px;
     height: 42px;
     font-size: 15px;
@@ -100,16 +99,12 @@ header button {
     border: none;
 }
 
-/*.container{*/
-    /*max-width: 1170px;*/
-    /*margin: auto;*/
-/*}*/
 
 .border {
     border-bottom: solid 2px #464646;
 }
 
-.container-2{
+.container{
     max-width: 100%;
     margin: auto;
 }
@@ -122,6 +117,7 @@ header button {
 
 .nav{
     max-width: 90%;
+    margin-left: 25px;
 }
 
 .nav ul {
@@ -140,7 +136,8 @@ header button {
     float: left;
 }
 .nav li:first-child {
-    margin-left: -25px;
+    /*margin-left: -25px;*/
+    margin-left: -10px;
 }
 
 .nav li a {
@@ -158,7 +155,7 @@ li a {
     color: white;
 }
 
-.sociallinks a.social {
+.social-links a.social {
     color: #FF0000;
     width: 30px;
     height: 30px;
@@ -168,19 +165,19 @@ li a {
     margin-bottom: 10px;
 }
 
-.container-2 a i {
+.container .social-links a i {
     font-size: 20px;
     color: black;
     text-align: center;
     margin: 5px;
 }
 
-.facebook .fa-facebook-f {
+.social-links .facebook .fa-facebook-f {
     font-size: 22px;
     margin: 9px 5px 0 12px;
 }
 
-.container-2:after{
+.container:after{
     clear: both;
     content: "";
     display: block;
@@ -192,16 +189,28 @@ li a {
     margin-bottom: 30px;
 }
 
+img.hero-photo {
+    width: 100%;
+    height: 100%;
+}
+.heading-1 {
+    max-width: 100%;
+    margin: auto;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*right: 50%;*/
+    border-bottom: solid 4px #ff0000;
+}
 h1 {
-    position: absolute;
-    top: 50%;
-    right: 18%;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*right: 28%;*/
+    text-align: center;
     font-family: 'OpenSans', sans-serif;
     font-weight: 400;
     font-size: 50px;
     color: #ffffff;
-    padding: 35px 400px;
-    border-bottom: solid 4px #ff0000;
+    /*border-bottom: solid 4px #ff0000;*/
 }
 
 h2.heading-2 {

@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <script
             src="https://code.jquery.com/jquery-2.2.1.js"
@@ -21,33 +19,9 @@
     <script src="jquery.min.js"></script>
     <script src="script/owl.carousel.js"></script>
     <script src="script/script.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        $( function() {
-            $( "#dialog" ).dialog({
-                autoOpen: false,
-                show: {
-                    effect: "blind",
-                    duration: 1000
-                },
-                hide: {
-                    effect: "explode",
-                    duration: 1000
-                }
-            });
-
-            $( "#opener" ).on( "click", function() {
-                $( "#dialog" ).dialog( "open" );
-            });
-        } );
-    </script>
     <title>Document</title>
 </head>
 <body>
-<div id="dialog" title="Basic dialog">
-    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-</div>
 <div class="main-container">
     <header>
         <div class="container border">
@@ -56,25 +30,27 @@
                     <img src="img/Logo.png" alt="">
                 </a>
             </div>
+            <div class="nav-buttons">
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <a href="#" class="button online-store">
+                    <i class="fas fa-shopping-cart"></i><span class="button_label">ONLINE STORE</span>
+                </a>
+                <a href="#" class="button login">
+                    <i class="far fa-user"></i><span class="button_label">LOG IN</span>
+                </a>
+                <a href="#" class="button log-up">
+                    <i class="fas fa-user-plus"></i>
+                    <span class="button_label">SIGN UP NOW</span>
+                </a>
 
-            <a href="#" class="button log-up">
-                <i class="fas fa-user-plus"></i>
-                <span class="button_label">SIGN UP NOW</span>
-            </a>
-            <a href="#" class="button login" id="opener">
-                <i class="far fa-user"></i><span class="button_label">LOG IN</span>
-            </a>
-            <a href="#" class="button online-store">
-                <i class="fas fa-shopping-cart"></i><span class="button_label">ONLINE STORE</span>
-            </a>
-            <form action="">
-                <input type="text" placeholder="Search">
-                <button>
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
+            </div>
         </div>
-        <div class="container-2">
+        <div class="container">
             <div class="nav">
                 <ul>
                     <li>
@@ -100,14 +76,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="sociallinks">
+            <div class="social-links">
                 <a href="#" class="social youtube">
                     <i class="fab fa-youtube"></i>
                 </a>
                 <a href="#" class="social twitter">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#" class="social instagram">
+                <a href="#" class="social inst">
                     <i class="fab fa-instagram"></i>
                 </a>
                 <a href="#" class="social facebook">
@@ -117,8 +93,10 @@
             </div>
         </div>
     </header>
-    <img src="img/Photo.jpg" height="100%" width="100%"/>
-    <h1>OUR TRAINERS</h1>
+    <img src="img/Photo.jpg" class="hero-photo"/>
+    <div class="heading-1">
+        <h1>OUR TRAINERS</h1>
+    </div>
 </div>
 <div class="heading-2">
     <h2 class="heading-2">
@@ -145,9 +123,10 @@
 
             </div>
         </div>
-        <div class="item-1"><div class="image-photo">
-            <img src="img/Photo1.jpg"/>
-        </div>
+        <div class="item-1">
+            <div class="image-photo">
+                <img src="img/Photo1.jpg"/>
+            </div>
             <div class="content">
                 <h3>Brandon Gerdes</h3>
                 <P>“I linked up with Stan McQuay in the fall of 2013. At this point I had some small successes and wins
@@ -160,10 +139,12 @@
 
                 </P>
 
-            </div></div>
-        <div class="item-1"><div class="image-photo">
-            <img src="img/Photo1.jpg"/>
+            </div>
         </div>
+        <div class="item-1">
+            <div class="image-photo">
+                <img src="img/Photo1.jpg"/>
+            </div>
             <div class="content">
                 <h3>Brandon Gerdes</h3>
                 <P>“I linked up with Stan McQuay in the fall of 2013. At this point I had some small successes and wins
