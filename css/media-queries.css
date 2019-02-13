@@ -7,32 +7,37 @@
 
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
 
     .nav-top {
-        float: none;
-        display: block;
-        width: 80%;
-        /*margin: 0 10%;*/
+        float: right;
+        display: inline-block;
+        width: 60%;
+        margin: 0 20px;
         /*margin: auto;*/
     }
 
-    /*.nav-buttons .button {*/
-        /*margin: auto;*/
-    /*}*/
+    .nav-buttons i {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
     .container .nav-top .button {
-        min-width: 100px;
+        /*min-width: 100px;*/
+        margin: 5px 10px;
+        padding: 5px 20px;
+    }
+    .container .nav-top .button a{
+        text-align: center;
     }
     a.logo_img {
         text-align: center;
-        /*padding: 20%;*/
     }
 
     .logo {
-        display: block;
-        max-width: 50%;
-        float: none;
-        margin: auto;
+        display: inline-block;
+        max-width: 40%;
+        float: left;
     }
 
     img.hero-photo {
@@ -44,8 +49,91 @@
         float: none;
         width: 100%;
     }
+
     .social-links a.social {
-        margin-right: 30px;
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .button_label {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container .button{
+        float: none;
+        margin-right: 10px;
+    }
+
+    .button.log-up {
+        margin-left: 10px;
+    }
+
+    .nav ul li a{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .nav li:first-child {
+        margin-left: 0;
+    }
+
+    .section-2 {
+       width: 90%;
+        margin: auto;
+        position: relative;
+
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .nav-top {
+        float: right;
+        display: inline-block;
+        width: 60%;
+        margin: 0 20px;
+    }
+
+    .nav-buttons i {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .container .nav-top .button {
+        margin: 5px 10px;
+        padding: 5px 20px;
+    }
+    .container .nav-top .button a{
+        text-align: center;
+    }
+    a.logo_img {
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        max-width: 30%;
+        float: left;
+    }
+
+    img.hero-photo {
+        width: 1920px;
+        height: 100%;
+    }
+
+    .container div.social-links {
+        float: none;
+        width: 100%;
+    }
+
+    .social-links a.social {
+        margin: 0 20px;
+        text-align: center;
     }
 
     .button_label {
@@ -78,52 +166,194 @@
         margin-left: 0;
     }
     /*.nav a .social {*/
-        /*text-align: center;*/
+    /*text-align: center;*/
     /*}*/
 }
 
-@media only screen and (max-width: 1024px){}
-
-@media only screen and (max-width: 768px) {
-    .container .nav-top .button {
-        min-width: 60px;
+@media only screen and (max-width: 992px) {
+    header {
+        width: 100%;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 1);
+        /*padding: 25px 0;*/
+        position: absolute;
+    }
+    .nav-top {
+        float: none;
+        display: block;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-top .search-form {
+        float: none;
+        width: 50%;
     }
 
-    /*form {*/
-    /*!*margin-top: 20px;*!*/
-    /*!*margin-bottom: 20px;*!*/
-    /*margin: 20px 10px;*/
-    /*text-align: center;*/
-    /*width: 718px;*/
-    /*}*/
-    /*.container form input button{*/
-    /*float: none;*/
-    /*width: auto;*/
-    /*display: block;*/
-    /*margin-right: 0;*/
-    /*}*/
-    /*}*/
-    /*@media only screen and (max-width: 600px)*/
-    /*{*/
-    /*form {*/
-    /*!*margin-top: 20px;*!*/
-    /*!*margin-bottom: 20px;*!*/
-    /*margin: 20px 10px;*/
-    /*text-align: center;*/
-    /*width: 80%;*/
-    /*}*/
-    /*.container form input button{*/
-    /*float: none;*/
-    /*width: auto;*/
-    /*display: block;*/
-    /*margin-right: 0;*/
-    /*}*/
-    /*.container .button {*/
-    /*min-width: 60px;*/
-    /*float: none;*/
-    /*}*/
-    /*}*/
+    .nav-buttons i {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .nav-top .search-form form {
+        width: 100%;
+    }
+
+    .container .nav-top .button {
+        margin: 5px 10px;
+        padding: 5px 20px;
+    }
+    .container .nav-top .button a{
+        text-align: center;
+    }
+    a.logo_img {
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        float: none;
+    }
+
+    img.hero-photo {
+        width: 1920px;
+        height: 100%;
+    }
+
+    .container div.social-links {
+        float: none;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .social-links a.social {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .button_label {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container .button{
+        float: none;
+        margin-right: 10px;
+    }
+
+    .button.log-up {
+        margin-left: 10px;
+    }
+
+    .nav ul li a{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .nav li:first-child {
+        margin-left: 0;
+    }
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-top {
+        float: none;
+        display: block;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-top .search-form {
+        float: none;
+        width: 100%;
+        margin: auto ;
+    }
+
+    .nav-buttons i {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .nav-top .search-form form {
+        width: 90%;
+    }
+
+    .container .nav-top .button {
+        margin: 5px 10px;
+        padding: 5px 20px;
+    }
+    .container .nav-top .button a{
+        text-align: center;
+    }
+    a.logo_img {
+        text-align: center;
+    }
+    .nav-buttons {
+        float: none;
+        margin: 15px;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        max-width: 40%;
+        float: none;
+    }
+
+    img.hero-photo {
+        width: 1920px;
+        height: 100%;
+    }
+
+    .container div.social-links {
+        float: none;
+        width: 100%;
+    }
+
+    .social-links a.social {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .button_label {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container .button{
+        float: none;
+        margin-right: 10px;
+    }
+
+    .button.log-up {
+        margin-left: 10px;
+    }
+
+    .nav ul li a{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .nav li:first-child {
+        margin-left: 0;
+    }
+}
+
+
+
+
 
 @media only screen and (max-width: 320px) {
     .logo {
