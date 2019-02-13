@@ -8,7 +8,9 @@
 
 
 @media only screen and (max-width: 1200px) {
-
+    .header {
+        z-index: 2;
+    }
     .nav-top {
         float: right;
         display: inline-block;
@@ -33,7 +35,15 @@
     a.logo_img {
         text-align: center;
     }
-
+    .heading-1 {
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        padding-bottom: 50px;
+        z-index: 0;
+        border-bottom: solid 4px #ff0000;
+    }
     .logo {
         display: inline-block;
         max-width: 40%;
