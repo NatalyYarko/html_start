@@ -194,7 +194,9 @@
         font-size: 18px;
         margin-right: 0;
     }
-
+    div.nav {
+        margin: 0;
+    }
     .nav-top .search-form form {
         width: 100%;
     }
@@ -280,7 +282,9 @@
         font-size: 18px;
         margin-right: 0;
     }
-
+    div.nav {
+         margin: 0;
+     }
     .nav-top .search-form form {
         width: 90%;
     }
@@ -352,51 +356,17 @@
 }
 
 
-
-
-
 @media only screen and (max-width: 320px) {
+    div.nav {
+        margin: 0;
+    }
     .logo {
-        display: block;
-        max-width: 100%;
-    }
-
-    .logo_img {
-        text-align: center;
-    }
-
-    form {
-        /*margin-top: 20px;*/
-        /*margin-bottom: 20px;*/
-        margin: 20px 10px;
-        text-align: center;
-        width: 280px;
-    }
-
-    .container form input button {
+        max-width: 90%;
         float: none;
-        width: auto;
-        display: block;
-        margin-right: 0;
-
     }
 
-    .container .button {
-        min-width: 60px;
-        float: none;
 
-    }
 }
-
-/*@media only screen and (max-width: 767px) {*/
-    /*.box, .box-1{*/
-        /*float: none;*/
-        /*width: auto;*/
-        /*margin: 10px;*/
-         /*box-sizing: border-box;*/
-     /*}*/
-    /**/
-/*}*/
 
 
 
