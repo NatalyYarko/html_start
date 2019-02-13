@@ -7,18 +7,50 @@
 
 
 
-@media only screen and (max-width: 1024px) {
-    .logo {
+@media only screen and (max-width: 1300px) {
+
+    .nav-top {
+        float: none;
         display: block;
-        max-width: 100%;
+        width: 80%;
+        /*margin: 0 10%;*/
+        /*margin: auto;*/
     }
 
-    .logo_img {
+    /*.nav-buttons .button {*/
+        /*margin: auto;*/
+    /*}*/
+    .container .nav-top .button {
+        min-width: 100px;
+    }
+    a.logo_img {
         text-align: center;
+        /*padding: 20%;*/
+    }
+
+    .logo {
+        display: block;
+        max-width: 50%;
+        float: none;
+        margin: auto;
+    }
+
+    img.hero-photo {
+        width: 1920px;
+        height: 100%;
+    }
+
+    .container div.social-links {
+        float: none;
+        width: 100%;
+    }
+    .social-links a.social {
+        margin-right: 30px;
     }
 
     .button_label {
         display: none;
+
 
     }
 
@@ -50,52 +82,50 @@
     /*}*/
 }
 
+@media only screen and (max-width: 1024px){}
 
 @media only screen and (max-width: 768px) {
-
-    form {
-        /*margin-top: 20px;*/
-        /*margin-bottom: 20px;*/
-        margin: 20px 10px;
-        text-align: center;
-        width: 718px;
-    }
-
-    .container form input button{
-        float: none;
-        width: auto;
-        display: block;
-        margin-right: 0;
-
-    }
-}
-
-@media only screen and (max-width: 600px)
-{
-    form {
-        /*margin-top: 20px;*/
-        /*margin-bottom: 20px;*/
-        margin: 20px 10px;
-        text-align: center;
-        width: 350px;
-    }
-
-    .container form input button{
-        float: none;
-        width: auto;
-        display: block;
-        margin-right: 0;
-
-    }
-    .container .button {
+    .container .nav-top .button {
         min-width: 60px;
-        float: none;
-
     }
+
+    /*form {*/
+    /*!*margin-top: 20px;*!*/
+    /*!*margin-bottom: 20px;*!*/
+    /*margin: 20px 10px;*/
+    /*text-align: center;*/
+    /*width: 718px;*/
+    /*}*/
+    /*.container form input button{*/
+    /*float: none;*/
+    /*width: auto;*/
+    /*display: block;*/
+    /*margin-right: 0;*/
+    /*}*/
+    /*}*/
+    /*@media only screen and (max-width: 600px)*/
+    /*{*/
+    /*form {*/
+    /*!*margin-top: 20px;*!*/
+    /*!*margin-bottom: 20px;*!*/
+    /*margin: 20px 10px;*/
+    /*text-align: center;*/
+    /*width: 80%;*/
+    /*}*/
+    /*.container form input button{*/
+    /*float: none;*/
+    /*width: auto;*/
+    /*display: block;*/
+    /*margin-right: 0;*/
+    /*}*/
+    /*.container .button {*/
+    /*min-width: 60px;*/
+    /*float: none;*/
+    /*}*/
+    /*}*/
 }
 
-@media only screen and (max-width: 320px)
-{
+@media only screen and (max-width: 320px) {
     .logo {
         display: block;
         max-width: 100%;
@@ -113,19 +143,21 @@
         width: 280px;
     }
 
-    .container form input button{
+    .container form input button {
         float: none;
         width: auto;
         display: block;
         margin-right: 0;
 
     }
+
     .container .button {
         min-width: 60px;
         float: none;
 
     }
 }
+
 /*@media only screen and (max-width: 767px) {*/
     /*.box, .box-1{*/
         /*float: none;*/
@@ -135,6 +167,6 @@
      /*}*/
     /**/
 /*}*/
-    @media only screen and (max-width: 1200px) {}
+
 
 

@@ -18,11 +18,18 @@ header {
     max-width: 30%;
     display: inline-block;
     margin-left: 15px;
+    float: left;
+}
+
+.logo a.logo_img {
+    width: 100%;
+    /*margin: auto;*/
+    /*text-align: center;*/
 }
 
 .logo_img img{
     width: 100%;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 i {
@@ -36,12 +43,16 @@ i {
     padding: 15px 15px;
 
 }
-.nav-buttons {
+.nav-top {
     display: inline-block;
     float: right;
     margin: 0;
 }
-.container .nav-buttons .button{
+.nav-buttons {
+    float: right;
+}
+
+.container .nav-top .button{
     font-family: 'OpenSans', sans-serif;
     display: inline-block;
     min-width: 170px;
@@ -69,7 +80,12 @@ i {
     background-color: #252525;
 
 }
-.nav-buttons form {
+
+.nav-top .search-form {
+    float: right;
+}
+
+.nav-top .search-form form {
     min-width: 170px;
     height: 42px;
     display: inline-flex;
@@ -78,8 +94,9 @@ i {
     margin: 5px 15px 5px;
 
 }
-.nav-buttons form input {
+.nav-top .search-form form input {
     float: left;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.0);
     padding-left: 5px;
     border: rgba(0, 0, 0, 0);
@@ -89,9 +106,10 @@ i {
     color: #959595;
     }
 
-header button {
+.nav-top .search-form form button {
     background-color: transparent;
-    /*float: right;*/
+    width: 20%;
+    float: right;
     padding: 5px;
     height: 42px;
     font-size: 15px;
@@ -136,7 +154,6 @@ header button {
     float: left;
 }
 .nav li:first-child {
-    /*margin-left: -25px;*/
     margin-left: -10px;
 }
 
@@ -155,15 +172,19 @@ li a {
     color: white;
 }
 
-.social-links a.social {
-    color: #FF0000;
-    width: 30px;
-    height: 30px;
+.container div.social-links {
     float: right;
-    background-color: red;
+}
+
+.social-links a.social {
+    float: right;
+    background-color: #FF0000;
     margin-right: 10px;
     margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
 }
+
 
 .container .social-links a i {
     font-size: 20px;
