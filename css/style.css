@@ -218,25 +218,28 @@ img.hero-photo {
     width: 100%;
     height: 100%;
 }
+.heading {
+     width: 100%;
+     margin: auto;
+     position: absolute;
+     bottom: 0;
+     padding-bottom: 50px;
+     z-index: 2;
+ }
+
 .heading-1 {
-    width: 100%;
+    width: 90%;
     margin: auto;
-    position: absolute;
-    top: 50%;
-    padding-bottom: 100px;
-    z-index: 2;
-    border-bottom: solid 4px #ff0000;
+    border-bottom: solid 3px #ff0000;
 }
+
 h1 {
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*right: 28%;*/
+    padding-bottom: 50px;
     text-align: center;
     font-family: 'OpenSans', sans-serif;
     font-weight: 400;
     font-size: 50px;
     color: #ffffff;
-    /*border-bottom: solid 4px #ff0000;*/
 }
 
 h2.heading-2 {
