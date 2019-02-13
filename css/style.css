@@ -64,7 +64,7 @@ header {
     text-decoration: none;
     color: #fff;
     margin: 5px 10px;
-    padding: 5px 20px;
+    padding: 0px 20px;
 }
 
 .nav-buttons .button.log-up {
@@ -87,7 +87,7 @@ header {
 
 .nav-top .search-form form {
     min-width: 170px;
-    /*height: 42px;*/
+    height: 40px;
     display: inline-flex;
     background-color: #ebebeb;
     border-radius: 3px;
@@ -100,7 +100,7 @@ header {
     background-color: rgba(0, 0, 0, 0.0);
     padding-left: 5px;
     border: rgba(0, 0, 0, 0);
-    line-height: 50px;
+    line-height: 40px;
     font-size: 15px;
     text-transform: uppercase;
     color: #959595;
@@ -111,7 +111,7 @@ header {
     width: 20%;
     float: right;
     padding: 5px;
-    height: 50px;
+    height: 40px;
     font-size: 15px;
     color: #fa090a;
     border: none;
