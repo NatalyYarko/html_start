@@ -351,3 +351,69 @@ div.owl-dots {
     font-weight: bold;
     color: #fa090a;
 }
+
+
+.ui-dialog {
+    width: 100% !important;
+    max-width: 750px !important;
+    padding: 0;
+    border: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-dialog .ui-dialog-title {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ui-corner-all {
+    border-radius: 0 0 10px 10px;
+}
+
+.ui-draggable-handle{
+    border-radius: 0px;
+}
+
+.ui-widget-header, .ui-widget.ui-widget-content{
+    border: none;
+}
+
+.ui-dialog .ui-widget-content {
+    padding-top: 40px;
+    padding-bottom: 166px;
+}
+
+.dialog-password {
+    width: 90%;
+    margin: auto;
+}
+
+
+.dialog-password label {
+     width: 25%;
+     margin-right: 15px;
+     float: left;
+     text-transform: uppercase;
+     font-size: 22px;
+     text-align: center;
+ }
+
+.dialog-password input {
+    width: 70%;
+    float: right;
+    line-height: 60px;
+
+}
