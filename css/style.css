@@ -6,6 +6,7 @@
     -webkit-font-smoothing: antialiased;
     /*color: blue;*/
 }
+
 header {
     width: 100%;
     margin: auto;
@@ -27,7 +28,7 @@ header {
     /*text-align: center;*/
 }
 
-.logo_img img{
+.logo_img img {
     width: 100%;
     /*margin: auto;*/
 }
@@ -40,20 +41,21 @@ header {
 .container {
     max-width: 100%;
     margin: auto;
-    padding: 15px 0
-;
+    padding: 15px 0;
 
 }
+
 .nav-top {
     display: inline-block;
     float: right;
     margin: 0;
 }
+
 .nav-buttons {
     float: right;
 }
 
-.container .nav-top .button{
+.container .nav-top .button {
     font-family: 'OpenSans', sans-serif;
     display: inline-block;
     line-height: 42px;
@@ -64,7 +66,7 @@ header {
     text-decoration: none;
     color: #fff;
     margin: 5px 10px;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 
 .nav-buttons .button.log-up {
@@ -72,6 +74,7 @@ header {
     /*margin-right: 10px;*/
 
 }
+
 .login {
     background-color: #464646;
 }
@@ -94,6 +97,7 @@ header {
     margin: 5px 15px 5px;
 
 }
+
 .nav-top .search-form form input {
     float: left;
     width: 90%;
@@ -104,7 +108,7 @@ header {
     font-size: 15px;
     text-transform: uppercase;
     color: #959595;
-    }
+}
 
 .nav-top .search-form form button {
     background-color: transparent;
@@ -122,18 +126,18 @@ header {
     border-bottom: solid 2px #464646;
 }
 
-.container{
+.container {
     max-width: 100%;
     margin: auto;
 }
 
-.container:after{
+.container:after {
     clear: both;
     content: "";
     display: block;
 }
 
-.nav{
+.nav {
     max-width: 90%;
     margin-left: 25px;
 }
@@ -144,7 +148,8 @@ header {
     text-align: left;
 
 }
-.nav li a{
+
+.nav li a {
     font-family: 'OpenSans', sans-serif;
     display: inline-block;
     font-size: 15px;
@@ -153,6 +158,7 @@ header {
     padding: 5px 6px;
     float: left;
 }
+
 .nav li:first-child {
     margin-left: -10px;
 }
@@ -160,6 +166,7 @@ header {
 .nav li a {
     border-bottom: 4px solid transparent;
 }
+
 .nav li:hover a {
     border-bottom: 4px solid #FF0000;
 }
@@ -197,12 +204,13 @@ li a {
 .social-links .facebook {
 
 }
+
 .social-links .facebook .fa-facebook-f {
     font-size: 20px;
     margin: 5px 5px 0 12px;
 }
 
-.container:after{
+.container:after {
     clear: both;
     content: "";
     display: block;
@@ -218,14 +226,15 @@ img.hero-photo {
     width: 100%;
     height: 100%;
 }
+
 .heading {
-     width: 100%;
-     margin: auto;
-     position: absolute;
-     bottom: 0;
-     padding-bottom: 50px;
-     z-index: 2;
- }
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+    z-index: 2;
+}
 
 .heading-1 {
     width: 90%;
@@ -262,16 +271,16 @@ h2.heading-2 {
 }
 
 .owl-stage-outer {
-    box-shadow: 5px 5px 33px 15px rgba(0,0,0,0.10);
+    box-shadow: 5px 5px 33px 15px rgba(0, 0, 0, 0.10);
 }
 
-.section-2 .owl-carousel .owl-item .item-1 div.image-photo{
+.section-2 .owl-carousel .owl-item .item-1 div.image-photo {
     width: 30%;
     display: inline-block;
     float: left;
 }
 
-.section-2 .owl-carousel .owl-item .item-1 div.content{
+.section-2 .owl-carousel .owl-item .item-1 div.content {
     width: 70%;
     display: inline-block;
     float: right;
@@ -296,7 +305,7 @@ h2.heading-2 {
     font-family: 'OpenSans', sans-serif;
 }
 
-.owl-carousel button.owl-dot span{
+.owl-carousel button.owl-dot span {
     width: 8px;
     height: 8px;
     background-color: #959595;
@@ -323,6 +332,7 @@ div.owl-dots {
     display: inline-block;
     margin: 0 11px;
 }
+
 .owl-nav .owl-prev {
     position: absolute;
     left: -35px;
@@ -383,11 +393,11 @@ div.owl-dots {
     border-radius: 0 0 10px 10px;
 }
 
-.ui-draggable-handle{
-    border-radius: 0px;
+.ui-draggable-handle {
+    border-radius: 0;
 }
 
-.ui-widget-header, .ui-widget.ui-widget-content{
+.ui-widget-header, .ui-widget.ui-widget-content {
     border: none;
 }
 
@@ -403,17 +413,59 @@ div.owl-dots {
 
 
 .dialog-password label {
-     width: 25%;
-     margin-right: 15px;
-     float: left;
-     text-transform: uppercase;
-     font-size: 22px;
-     text-align: center;
- }
+    width: 25%;
+    margin-right: 15px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
 
 .dialog-password input {
     width: 70%;
     float: right;
     line-height: 60px;
+    margin-bottom: 40px;
+}
 
+.ui-widget button {
+    display: block;
+    margin: auto;
+    background-color: #b7b7b7;
+    border: none;
+    border-radius: 3px;
+    padding: 20px 150px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.dialog-password p {
+    display: block;
+    text-align: center;
+    margin: 25px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.dialog-password a {
+    display: block;
+    text-align: center;
+    max-width: 530px;
+    margin: auto;
+    background-color: #4865a3;
+    border: none;
+    border-radius: 3px;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.dialog-password a i {
+    font-size: 24px;
+    margin-right: 16px;
 }
